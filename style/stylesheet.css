@@ -1,0 +1,732 @@
+body{
+	background-color:white;
+	margin:0px;
+	padding:0px;
+	font-family:'Open Sans', sans-serif;
+	}
+#maincontainer{
+	/* [disabled]background-color:white; */
+	width: 100%;
+	height: auto;
+	min-height: 400px;
+	}
+#maincontainer a{
+text-decoration:none;	
+}
+#welcome
+{
+	font-size:15px;
+	letter-spacing:1px;
+	padding-left:100px;
+	position:absolute;
+	top:15px;
+
+	
+}
+#register 
+{
+	font-size:15px;
+	letter-spacing:1px;
+	padding-left:1000px;
+	position:absolute;
+	top:15px;
+}
+#register a
+{
+		text-decoration:none;
+		color:black;
+}
+#register a:hover
+{
+	color:#349676
+}
+#top
+{
+	background-color:#F8FBFC;
+	width:100%;
+	height:47px;
+}
+#companylogo
+{
+	background-color:#21292D;
+	width:100%;
+	height:62px;
+}
+#companylogo a
+{
+	   
+    font-size: 20px;
+    font-weight: bold;
+    margin: 7px 0 0;
+	text-decoration:none;
+	color:white;
+	position:relative;
+	top:20px;
+	left:100px;
+}
+
+	#companylogo a:hover
+	{
+		color:#349676;
+	}
+	#button
+	{
+		
+		position:absolute;
+		left:900px;
+		top:50px;
+	}
+	#button a
+	{
+		background-color:#3DC697;
+		margin-left:10px;
+		color:white;
+		border:none;
+		padding:10px;
+		text-align:center;
+		font-size:14px;
+		padding-left:20px;
+		padding-right:20px;
+		border-radius:5px;
+	}
+	#button:active 
+	{
+ 		 	background-color:#21292D;
+  			transform: translateY(4px);
+	}
+	#button a:hover
+	{
+		opacity:0.6;
+		color:white;
+		transition-duration: 0.4s;
+	}
+	#introimage
+	{
+		width:100%;
+		height:354px;
+		background-color:#3DC697;
+		
+	}
+	#introimage img
+	{
+		width:100%;
+		
+	}
+	
+#advance_search
+{
+	background-color:black;
+	width:100%;
+	height:85px;
+}
+#advance_search form
+{
+	display:inline;
+}
+#search
+{
+	width:365px;
+	height:30px;
+	margin-left:110px;
+	margin-top:25px;
+}
+.category
+{
+	width:180px;
+	height:36px;
+	margin-left:6px;
+}
+#search_button 
+{
+		background-color:#3DC697;
+		color:white;
+		border:none;
+		border-radius:5px;
+	/*	padding:10px;
+		margin-left:6px;
+		padding-top:10px;
+		padding-bottom:12px;
+		padding-left:50px;
+		padding-right:60px;
+		border-radius:5px;
+		font-size: 13px;
+    	font-weight: bold;
+		text-decoration:none;*/
+    width:180px;
+	height:37px;
+	margin-left:6px;
+		padding-bottom:3px;
+}
+#search_button:active 
+{
+ 		 	background-color:green;
+}
+
+#search_button:hover
+{
+		opacity:0.6;
+		color:white;
+		transition-duration: 0.4s;
+		cursor:crosshair;
+}
+#content
+{
+	width:88%;
+	height:auto;
+	min-height:403px;
+	padding-top:50px;
+	padding-left:110px;	
+}
+#content a
+{
+	text-decoration:none;
+}
+#content span
+{
+	font-weight:bold;
+}
+
+#hr1
+{
+	position:absolute;
+}
+
+
+#category_display
+{
+	width:210px;
+	height:310px;
+	background-color:#F8FBFC;
+	border:1px solid #DEDBD7;
+	font-weight:bold;
+	font-size:14px;
+	padding-left:5px;
+	padding-top:25px;
+	display:inline-table;
+	margin-top:13px;
+
+}
+
+
+
+#category_display li
+{
+	margin-left:-25px;
+	list-style:none;
+	text-align:left;
+}
+#category_display li a
+{
+	color:#515858;
+	
+}
+
+#category_display li a:hover
+{
+		color:#349676;
+		transition-duration: 0.4s;
+}
+#cat_display_box
+	{
+		width:210px;
+		height:40px;
+		background-color:white;
+		position:relative;
+		top:-40px;
+		left:-3px;
+		text-align:center;
+	}
+#cat_display_box a
+{
+	position:relative;
+	top:10px;
+	
+}
+#login_top
+{
+	background-color:#F5F5F5;
+	width:100%;
+	height:65px;
+	font-weight:bold;
+	
+}
+#login_top div
+{
+	padding-left:100px;
+	padding-top:20px;
+	font-size:14px;
+	color:#3DC697;
+}
+#login_top div a
+{
+	
+	font-size:15px;
+	color:black;
+}
+#login_top div a:hover
+{
+	
+	color:#3DC697;
+}
+#login_body
+{
+	padding-left:500px;
+	font-weight:bold;
+}
+#login_form
+{
+	
+	font-weight:bold;
+	font-size:14px;
+	border:2px solid #DEDBD7;
+	width:335px;
+	height:310px;
+	background-color:#F8FBFC;
+	padding-left:15px;
+	padding-top:20px;
+		
+}
+#txt1
+{
+	padding-top:-5px;
+	height:27px;
+}
+#checkid
+{
+	width:25px;
+	height:25px;
+	margin-left:-0.5px;
+
+}
+#checkid:hover
+{
+	cursor:pointer;
+	cursor:hand;
+}
+#checkname
+{
+	position:relative;
+	top:-25px;
+	left:35px;
+}
+#login_button 
+{
+		background-color:#3DC697;
+		color:white;
+		border:none;
+		border-radius:5px;
+  	  	width:100px;
+		height:35px;
+		margin-left:-0.5px;
+		padding-bottom:2px;
+		margin-top:-2px;
+		font-weight:bold;
+}
+#login_button:active 
+{
+ 		 	background-color:green;
+}
+
+#login_button:hover
+{
+		opacity:0.6;
+		color:white;
+		transition-duration: 0.4s;
+		cursor:pointer;
+		cursor:hand;
+}
+#footer
+{
+	width:66.5%;
+	height:60px;
+	background-color:#21292D;
+	border-top:5px solid #3DC697;
+	color:#AB9E87;
+	padding-left:450px;
+	padding-top:40px;
+	
+	
+}
+#footer a
+{
+	color:#999;
+	
+
+}
+#footer a:hover
+{
+	color:white;
+	transition-duration: 0.4s;
+}
+#signup_form
+{
+	
+	
+	font-weight:bold;
+	font-size:14px;
+	border:2px solid #DEDBD7;
+	width:335px;
+	height:405px;
+	background-color:#F8FBFC;
+	padding-left:15px;
+	padding-top:20px;
+		
+}
+#securityques
+{
+	/*position:absolute;
+	left:200px;*/
+	width:100px;
+	
+}
+#txt2
+{
+	width:80px;
+	
+}
+#recovery
+{
+	width:400px;
+	height:200px;
+	background-color:#F8FBFC;
+	border:2px solid #DEDBD7;
+	margin-top:-40px;
+	padding-top:40px;
+	font-weight:bold;
+	font-size:15px;
+	color:#666;
+}
+.useroptions
+{
+	
+	
+}
+.useroptions a
+{
+	background-color:#F8FBFC;
+	padding-top:3px;
+	padding-left:20px;
+	padding-bottom:7px;
+	display:inline-table;
+	width:240px;
+	margin-bottom:3px;
+	border:8px solid #F8FBFC;
+	color:grey;
+	font-weight:bold;
+	font-size:14px;			
+	/*line-height:20px;*/
+	
+}
+.useroptions a:hover
+{
+	background-color:#3DC697;
+	border-color:#3DC697;
+	transition-duration: 0.6s;
+	color:white;
+
+}
+#frame
+{	
+	width:276px;
+	height:357px;	
+	background-color:white;
+	float:left;
+	border:1px solid #DEDBD7;
+	position:relative;
+}
+#body
+{
+	width:70%;
+	height:700px;
+	background-color:red;
+	padding-left:10px;
+	position:relative;
+	left:300px;
+	font-weight:bold;
+	font-size:16px;
+}
+#insert_form
+{
+	margin-left:300px;
+	background-color:#F8FBFC;
+	width:528px;
+	min-height:400px;
+	padding-left:15px;
+	padding-top:20px;
+	margin-bottom:40px;
+	border:1px solid #DEDBD7;
+}
+.insert_cell
+{
+	background-color:#3DC697;
+	width:506px;
+	height:30px;
+	padding-top:10px;
+	padding-left:8px;
+	color:white;
+}
+.insert_cell_heading
+{
+	font-weight:bold;
+	font-size:15px;
+	padding-bottom:6px;
+}
+.insert_form_cmb
+{
+	 width:514px;
+	 height:33px;
+}
+.insert_form_text
+{
+	 width:510px;
+	 height:28px;
+}
+#display_item_body1
+{
+	width:300px;	
+	min-height:600px;
+	background-color:#F8FBFC;
+	float:left;
+	padding:10px;
+	border:1px solid #DEDBD7;	
+		
+}
+#display_item_body2
+{
+	width:100%;
+	min-height:700px;
+    padding:10px;
+	margin-top:-56px;
+	
+}
+#display_item_sub_body2
+{
+	width:80%;
+	min-height:600px;
+    padding:5px;
+	margin-left:330px;
+	
+}
+#display_item_sub_sub_body2
+{
+	
+	width:95.5%;
+	min-height:40px;
+	background-color:#FAFAFA;
+	margin:-4px;
+	padding:4px;
+	margin-top:-12px;
+	border:1px solid #DEDBD7;
+
+}
+#item_image_detail
+{
+	width:258px;
+	height:340px;
+	background-color:#F8FBFC;
+	display:inline-table;
+	margin-right:23px;
+	margin-left:-5px;
+	margin-top:23px;
+	font-size:16px;
+	font-weight:bold;
+	border:1px solid #DEDBD7;
+	
+}
+#item_image_frame
+{
+	width:258px;
+	height:160px;
+}
+#box1
+{
+	width:300px;
+	background-color:red;
+	min-height:400px;
+	display:inline-block;
+	
+}
+#box2
+{
+	width:300px;
+	background-color:yellow;
+	min-height:400px;
+	float:right;
+}
+#enlarge_item_detail1
+{
+	width:800px;
+	min-height:700px;
+	background-color:#F8FBFC;
+	border:1px solid #DEDBD7;
+	padding-left:20px;
+	font-weight:bold;
+}
+#button1
+	{
+	display:inline-block;	
+	
+	}
+	#button1 a
+	{
+		background-color:#3DC697;
+		margin-right:10px;
+		color:white;
+		border:none;
+		padding:10px;
+		text-align:center;
+		font-size:14px;
+		padding-left:20px;
+		padding-right:20px;
+		border-radius:5px;
+	}
+	#button1:active 
+	{
+ 		 	background-color:#21292D;
+  			transform: translateY(4px);
+	}
+	#button1 a:hover
+	{
+		opacity:0.6;
+		color:white;
+		transition-duration: 0.4s;
+	}
+	#enlarge_item_detail2
+	{
+		margin-top:20px;
+		width:800px;
+	height:300px;
+	background-color:#F8FBFC;
+	border:1px solid #DEDBD7;
+	
+	padding-left:20px;
+	font-weight:bold;
+
+	}
+	#enlarge_item_detail3
+	{
+	margin-top:20px;
+	width:800px;
+	min-height:400px;
+	background-color:#F8FBFC;
+	border:1px solid #DEDBD7;
+	
+	padding-left:20px;
+	font-weight:bold;
+	}
+	#enlarge_item_detail4
+	{
+		margin-top:20px;
+	width:800px;
+	min-height:400px;
+	background-color:white;
+	padding-left:20px;
+	font-weight:bold;
+	}
+	#profile_image
+	{
+		width:270px;
+		height:259px;
+		background-color:#CCC;
+		border:1px solid #DEDBD7;
+		margin-top:50px;
+		margin-left:-5px;
+	}
+	#latest_listings
+	{
+		margin-left:7px;
+	}
+	#contact_form
+	{
+		font-weight:bold;
+		width:358px;
+		min-height:400px;
+		background-color:#F8FBFC;
+		border:1px solid #DEDBD7;
+		margin-left:405px;
+		margin-bottom:10px;
+		padding-left:15px;
+		padding-top:20px;
+		border-radius:8px;
+	}
+	.field_name
+	{
+		font-weight:bold;
+		font-size:15px;
+		padding-bottom:6px;	
+	}
+	.field_text
+	{
+		 width:338px;
+	 	 height:28px;
+	}
+	#admin_transaction
+	{
+		font-weight:bold;
+		font-size:large;
+		
+	}
+	#admin_transaction a
+	{
+		text-decoration:none;
+		position:relative;
+		left:-6px;
+	}
+	#admin_transaction a:hover
+	{
+		color:#3DC697;
+		transition-duration: 0.4s;
+	}
+	#save_button 
+	{
+		background-color:#3DC697;
+		color:white;
+		border:none;
+		border-radius:5px;
+  	  	width:270px;
+		height:35px;
+		margin-left:-89px;
+		padding-bottom:2px;
+		margin-top:-12px;
+		font-weight:bold;
+	}
+	#save_button:active 
+	{
+ 		 	background-color:green;
+	}
+
+	#save_button:hover
+	{
+		opacity:0.6;
+		color:white;
+		transition-duration: 0.4s;
+		cursor:pointer;
+		cursor:hand;
+	}
+	#update_account_form
+	{
+		width:793px;
+		min-height:200px;
+		margin-left:-4px;
+		background-color:#F8FBFC;
+		border:1px solid #DEDBD7;
+		padding-left:20px;
+		padding-top:20px;
+	}
+	.update_account_title
+	{
+		font-size:16px;
+		font-weight:bold;
+		margin-bottom:5px;
+	}
+	.update_account_tag
+	{
+		 width:770px;
+	 	 height:28px;
+	}
+	.update_account_cmb
+	{
+	 width:774px;
+	 height:33px;
+	}
+
